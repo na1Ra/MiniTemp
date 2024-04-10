@@ -15,6 +15,8 @@ Als integrierte Entwicklungsumgebung (IDE) empfehle ich Thonny, da dort die Unte
 
 ## Anschließen 
 Der DHT-11 Sensor verfügt über drei Pins: einen +, einen - und einen S-Pin. Der + Pin wird an den 3V-Pin des Pico angeschlossen, den wir auf Pin 5 des Pico finden, wenn der USB-Anschluss nach oben zeigt. Der - Pin wird an Ground angeschlossen. Am Pico gibt es mehrere Ground-Pins; ich habe ihn an Pin 13 angeschlossen. Der letzte Pin, der mit dem Pico verbunden werden muss, ist der Signal-Pin. Ich habe ihn an GP14 angeschlossen, der sich auf der rechten Seite des vorletzten Pins befindet.
+
+<img src='./Pico w fritzing.png' width=60%>
           
 Nun sind wir bereit, den Pico zu programmieren, um die Daten des Sensors auszulesen und sie auf einer Webseite darzustellen.
 
